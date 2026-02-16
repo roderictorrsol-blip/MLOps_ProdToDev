@@ -42,7 +42,7 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_quant_type="nf4",
     bnb_4bit_compute_dtype=torch.bfloat16
 )
-
+ Cerco un centro di gravita' permenante 
 #Load the model
 
 device_map = {"": 0}
@@ -210,4 +210,4 @@ foundational_outputs_sentence = get_outputs(loaded_model, input_sentences, max_n
 
 print(tokenizer.batch_decode(foundational_outputs_sentence, skip_special_tokens=True))
 
-								
+# In conclusion, lora offers a practical way to fine-tune LLMs  efficently,by  quantization with loRA, er reduce memory usage without loosing performane streght
